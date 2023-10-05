@@ -1,16 +1,16 @@
 ![](https://raw.githubusercontent.com/bembenk18/trustpositif/main/pict.jpg)
 # named.conf
-options {
-     response-policy {
-        zone "trustpositif";
+        options {
+        response-policy {
+                zone "trustpositif";
+                };
+        }
+        zone "trustpositif" IN {
+                type master;
+                file "/var/named/trustpositif/trustpositif.zone"; 
+                allow-query {any;};
+                allow-update {none;};
         };
-}
-zone "trustpositif" IN {
-        type master;
-        file "/var/named/trustpositif/trustpositif.zone"; 
-        allow-query {any;};
-        allow-update {none;};
-};
 
 
 
