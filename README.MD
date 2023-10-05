@@ -1,5 +1,5 @@
 
-![alt text](https://raw.githubusercontent.com/bembenk18/trustpositif/main/pict.jpg)
+![alt text](pict.jpg)
 ## named.conf
  ``` 
         options {
