@@ -1,4 +1,4 @@
-![](https://github.com/bembenk18/trustpositif/blob/main/pict.jpg)
+![](https://raw.githubusercontent.com/bembenk18/trustpositif/main/pict.jpg)
 # named.conf
 options {
      response-policy {
@@ -14,10 +14,10 @@ zone "trustpositif" IN {
 
 
 
-# Buat cronjob untuk jalankan file update-db.sh
-# Ganti url database
-# Tambahkan token dan chat id telegram untuk notifikasi update
-# Ganti IP
+### Buat cronjob untuk jalankan file update-db.sh
+### Ganti url database
+### Tambahkan token dan chat id telegram untuk notifikasi update
+### Ganti IP
 
 
 
