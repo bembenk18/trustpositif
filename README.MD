@@ -1,6 +1,7 @@
 
 ![alt text](https://raw.githubusercontent.com/bembenk18/trustpositif/main/pict.jpg)
-# named.conf
+## named.conf
+ ``` 
         options {
         response-policy {
                 zone "trustpositif";
@@ -12,7 +13,7 @@
                 allow-query {any;};
                 allow-update {none;};
         };
-
+```
 
 
 ### Buat cronjob untuk jalankan file update-db.sh
