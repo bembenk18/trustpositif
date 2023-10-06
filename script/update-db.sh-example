@@ -1,7 +1,7 @@
 #!/bin/bash
 url="https://trustpositif.kominfo.go.id/"
-chat_id=""
-bot_token="6481507723:"
+chat_id="**********"
+bot_token="6481507723:**********"
 if [ ! -e /var/named/trustpositif/trustpositif.db ]; then
     touch /var/named/trustpositif/trustpositif.db
 fi
