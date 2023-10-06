@@ -22,9 +22,10 @@ options {
 
 ## Usage
 #### Setup
-1. Ganti url database
-2. Tambahkan token dan chat id telegram untuk notifikasi update
-3. Ganti IP
+1. Rename *.sh-example jadi *.sh
+2. Ganti url database
+3. Tambahkan token dan chat id telegram untuk notifikasi update
+4. Ganti IP
 #### Crontab
 ```bash
 0 10 * * * /bin/bash /var/named/trustpositif/script/update-db.sh
