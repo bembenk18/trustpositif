@@ -21,6 +21,7 @@ else
     message="$current_time\nUpdate\nJumlah Baris Sebelum: $existing_file_lines\nJumlah Baris Setelah: $new_file_lines\n"
    echo "Restarting named because data changed..."
     if sudo systemctl restart named; then
+        wait
         named_status=$(systemctl status named | grep "Active:")
         named_status_message="Named Restarted Successfully:%0A$named_status"
     else
